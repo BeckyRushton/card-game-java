@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5eaa42f-7f33-4d5a-8bff-bec4e84055ae" name="Changes" comment="changed string utils for values">
+    <list default="true" id="f5eaa42f-7f33-4d5a-8bff-bec4e84055ae" name="Changes" comment="added deal card method that works in main">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/Card.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CardGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/CardGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
     </list>
@@ -78,12 +79,31 @@
       <option name="project" value="LOCAL" />
       <updated>1678722961094</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added deal card method that works in main">
+      <created>1678805244226</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678805244226</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial" />
     <MESSAGE value="changed string utils for values" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed string utils for values" />
+    <MESSAGE value="added deal card method that works in main" />
+    <option name="LAST_COMMIT_MESSAGE" value="added deal card method that works in main" />
   </component>
 </project>

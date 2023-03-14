@@ -9,6 +9,18 @@ public class Card {
         this.value = value;
     }
 
+    public String getSuit() {
+        return suit;
+    }
+
+    public String getSymbol() {
+        return symbol;
+    }
+
+    public int getValue() {
+        return value;
+    }
+
     @Override
     public String toString() {
         return symbol + " of " + suit + "'s";

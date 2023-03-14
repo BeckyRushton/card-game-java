@@ -1,4 +1,7 @@
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.Comparator;
 
 public class CardGame {
     String name;
@@ -13,26 +16,30 @@ public class CardGame {
         return deckOfCards;
     }
 
-    // Sorts the deck in number order (e.g. 2222333344445555 etc) and stores the new
-    // shuffled deck back into the deckOfCards attribute.
-    // Will need to sort by value as the only parameter and store it as a new list.
     public ArrayList<Card> sortDeckInNumberOrder() {
-        return deckOfCards;
+        deckOfCards.sort(Comparator.comparing(Card::getValue));
+        {
+            System.out.println("You have sorted the deck in number order. See below for the new deck order... ");
+        }
+        return null;
     }
 
-    //  Sorts the deck into suits (2,3,4,5,6,7,8,9,10,J,Q,K,A of hearts,
-    //  then 2,3,4,5,6,7,8,9,10,J,Q,K,A of clubs etc) and stores the new shuffled
-    //  deck back into the deckOfCards attribute.
-    //  Similar to deckOfCards but will need to store new deck as a new list.
+
     public ArrayList<Card> sortDeckIntoSuits() {
-        return deckOfCards;
+        deckOfCards.sort(Comparator.comparing(Card::getSuit));
+        {
+            System.out.println("You have sorted the deck in suits. See below for the new deck order... ");
+        }
+        return null;
     }
 
-    //  Shuffles the deck into a random order and stores the new shuffled deck
-    //  back into the deckOfCards attribute.
-    //  Will need to store the new deck of cards as a new array list to be returned.
+
     public ArrayList<Card> shuffleDeck() {
-        return deckOfCards;
+        Collections.shuffle(deckOfCards);
+        {
+            System.out.println("You have shuffled the deck. See below for the new deck order... ");
+        }
+        return null;
     }
 
     public void printDeck() {
@@ -40,10 +47,11 @@ public class CardGame {
             System.out.println(card.toString());
 
         }
+
     }
 
     public void dealCard() {
-            System.out.println(deckOfCards.get(0));
+        System.out.println("This is the top card of the deck: " + deckOfCards.get(0));
     }
 
     {
@@ -55,3 +63,4 @@ public class CardGame {
         }
     }
 }
+
