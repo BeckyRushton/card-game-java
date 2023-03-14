@@ -11,6 +11,7 @@ public class Main {
         cardGame.shuffleDeck();
         cardGame.printDeck();
         cardGame.dealCard();
+        System.out.println("These are the cards that have already been dealt... " + cardGame.dealtCards);
 
 
 

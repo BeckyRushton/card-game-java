@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5eaa42f-7f33-4d5a-8bff-bec4e84055ae" name="Changes" comment="added deal card method that works in main">
+    <list default="true" id="f5eaa42f-7f33-4d5a-8bff-bec4e84055ae" name="Changes" comment="added sort by number, sort by suit and shuffle deck methods that work on main">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/Card.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CardGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/CardGame.java" afterDir="false" />
@@ -86,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678805244226</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added sort by number, sort by suit and shuffle deck methods that work on main">
+      <created>1678807501195</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678807501195</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -104,6 +111,7 @@
     <MESSAGE value="Initial" />
     <MESSAGE value="changed string utils for values" />
     <MESSAGE value="added deal card method that works in main" />
-    <option name="LAST_COMMIT_MESSAGE" value="added deal card method that works in main" />
+    <MESSAGE value="added sort by number, sort by suit and shuffle deck methods that work on main" />
+    <option name="LAST_COMMIT_MESSAGE" value="added sort by number, sort by suit and shuffle deck methods that work on main" />
   </component>
 </project>

@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.Comparator;
 
@@ -8,6 +7,8 @@ public class CardGame {
 
     private ArrayList<Card> deckOfCards = new ArrayList<>();
 
+    public ArrayList<Card> dealtCards = new ArrayList<>();
+
     public CardGame(String name) {
         this.name = name;
     }
@@ -15,6 +16,8 @@ public class CardGame {
     public ArrayList<Card> getDeckOfCards() {
         return deckOfCards;
     }
+
+
 
     public ArrayList<Card> sortDeckInNumberOrder() {
         deckOfCards.sort(Comparator.comparing(Card::getValue));
@@ -42,6 +45,7 @@ public class CardGame {
         return null;
     }
 
+
     public void printDeck() {
         for (Card card : deckOfCards) {
             System.out.println(card.toString());
@@ -50,8 +54,12 @@ public class CardGame {
 
     }
 
-    public void dealCard() {
-        System.out.println("This is the top card of the deck: " + deckOfCards.get(0));
+    public Card dealCard() {
+        Card topCard = getDeckOfCards().get(0);
+        getDeckOfCards().remove(0);
+        dealtCards.add(topCard);
+        return topCard;
+
     }
 
     {
