@@ -18,30 +18,20 @@ public class CardGame {
     }
 
 
-
     public ArrayList<Card> sortDeckInNumberOrder() {
         deckOfCards.sort(Comparator.comparing(Card::getValue));
-        {
-            System.out.println("You have sorted the deck in number order. See below for the new deck order... ");
-        }
         return null;
     }
 
 
     public ArrayList<Card> sortDeckIntoSuits() {
         deckOfCards.sort(Comparator.comparing(Card::getSuit));
-        {
-            System.out.println("You have sorted the deck in suits. See below for the new deck order... ");
-        }
         return null;
     }
 
 
     public ArrayList<Card> shuffleDeck() {
         Collections.shuffle(deckOfCards);
-        {
-            System.out.println("You have shuffled the deck. See below for the new deck order... ");
-        }
         return null;
     }
 
@@ -54,6 +44,12 @@ public class CardGame {
 
     }
 
+    public void printDeal() {
+
+            System.out.println(dealCard());
+
+    }
+
     public Card dealCard() {
         Card topCard = getDeckOfCards().get(0);
         getDeckOfCards().remove(0);
@@ -61,6 +57,7 @@ public class CardGame {
         return topCard;
 
     }
+
 
     {
         for (int i = 0; i < 4; i++) {

@@ -13,7 +13,9 @@ public class Main {
         cardGame.dealCard();
         System.out.println("These are the cards that have already been dealt... " + cardGame.dealtCards);
 
-
+        Snap snap = new Snap("Snap!");
+        snap.startGame();
+        snap.snapRound();
 
     }
 }
