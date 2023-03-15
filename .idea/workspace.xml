@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5eaa42f-7f33-4d5a-8bff-bec4e84055ae" name="Changes" comment="added a dealt cards array list that once a card is dealt, it is removed from deck of cards, and added to this list">
-      <change afterPath="$PROJECT_DIR$/Snap.java" afterDir="false" />
+    <list default="true" id="f5eaa42f-7f33-4d5a-8bff-bec4e84055ae" name="Changes" comment="Added snap game class that works in main.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CardGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/CardGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
@@ -100,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678813491174</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added snap game class that works in main.">
+      <created>1678899558791</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678899558791</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -120,6 +126,7 @@
     <MESSAGE value="added deal card method that works in main" />
     <MESSAGE value="added sort by number, sort by suit and shuffle deck methods that work on main" />
     <MESSAGE value="added a dealt cards array list that once a card is dealt, it is removed from deck of cards, and added to this list" />
-    <option name="LAST_COMMIT_MESSAGE" value="added a dealt cards array list that once a card is dealt, it is removed from deck of cards, and added to this list" />
+    <MESSAGE value="Added snap game class that works in main." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added snap game class that works in main." />
   </component>
 </project>

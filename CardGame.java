@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 
-public class CardGame {
+public abstract class CardGame {
     String name;
 
     private ArrayList<Card> deckOfCards = new ArrayList<>();
